@@ -193,7 +193,7 @@ export default function PetServiceBooking({ showBookings, toggleShowBookings, se
             Limpar Lista 🗑️
           </button>
           <button onClick={toggleShowBookings} className="bg-blue-500 text-white p-2 mt-2">
-            Voltar 🔙
+            Voltar ⬅️
           </button>
         </div>
       )}
