@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
@@ -17,7 +18,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 header {
@@ -55,6 +55,7 @@ header button span {
 header button strong {
   font-size: 0.7rem;
   color: white;
+  text-shadow: 1px 1px 2px rgba(37, 37, 37, 0.5);
 }
 
 main {
@@ -80,10 +81,10 @@ main button img {
 
 main button p {
   margin-top: 5px;
-  color: blue;
+  color: #5252e6;
   font-size: 1rem;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(37, 37, 37, 0.5);
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(37, 37, 37, 0.396);
 }
 
 footer {
@@ -96,10 +97,10 @@ footer {
 }
 
 footer p {
-  color: blue;
+  color: #5252e6;
   font-size: 0.8rem;
   margin: 5px;
-  text-shadow: 2px 3px 1px rgb(255, 254, 254);
+  text-shadow: 2px 2px 4px rgb(255, 254, 254);
   font-weight: bold;
 }
 
@@ -114,26 +115,27 @@ footer img {
   padding-bottom: 20px;
   margin-bottom: 5px;
   width: 70%;
-  border: 2px solid blue;
+  border: 2px solid #5252e6;
   border-radius: 6px;
-  color: blue;
+  color: #6e69ec;
   font-weight: 500;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  text-shadow: 2px 2px 4px rgba(76, 76, 76, 0.5);
+  text-shadow: 1px 1px 2px rgba(76, 76, 76, 0.5);
   box-shadow: -1px 5px 15px rgba(37, 37, 37, 0.5);
 }
 
 .form input,
 .form select {
   width: 100%;
-  color: #464646;
+  color: #03223f;
   padding: 3px;
   border-radius: 5px;
-  border: 1px solid #642f07;
+  border: 1px solid #a798f9;
+  background-color: white;
 }
 
 .form input:focus {
@@ -142,13 +144,13 @@ footer img {
 
 .form button {
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   margin: 10px;
   padding: 5px 8px;
-  background-color: blue;
+  background-color: #5252e6;
   border: none;
   border-radius: 3px;
-  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
   transition: 0.3s;
   cursor: pointer;
 }
@@ -170,7 +172,7 @@ footer img {
   flex-direction: column;
   align-items: flex-start;
   padding: 10px;
-  border: 2px solid blue;
+  border: 2px solid #5252e6;
   border-radius: 5px;
   box-shadow: -1px 5px 15px rgba(37, 37, 37, 0.5);
   margin-bottom: 5px;
@@ -181,7 +183,7 @@ footer img {
   min-width: 100%;
   text-align: center;
   color: white;
-  background-color: blue;
+  background-color: #6e69ec;
   padding: 3px 0;
   border-radius: 5px;
 }
@@ -194,11 +196,11 @@ footer img {
 }
 
 .listem li {
-  color: #464646;
+  color: #03223f;
 }
 
 .listem li span {
-  color: blue;
+  color: #5252e6;
   font-weight: 500;
 }
 
